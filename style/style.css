@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Bold;
+    src: url(../fonts/Bold.woff);
+}
+
+@font-face {
+    font-family: BoldObl;
+    src: url(../fonts/BoldObl.woff);
+}
+
 *{
     margin: 0%;
     padding: 0%;
