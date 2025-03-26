@@ -57,7 +57,7 @@ a{
 }
 
 .logo{
-    height: 50px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -83,6 +83,7 @@ a{
 
 .dropdown li {
     padding: 8px 15px;
+    padding: 10px;
 }
 
 .dropdown li a {
@@ -100,4 +101,10 @@ a{
 
 .submenu:hover .dropdown {
     display: block;
+}
+
+
+.carrito{
+    width: 35px;
+    margin-right: 60px;
 }
