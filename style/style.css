@@ -96,8 +96,12 @@ a{
 }
 
 .dropdown li:hover {
-    background: linear-gradient(to left, rgb(5, 27, 0), rgb(9, 255, 0));
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(169, 213, 42));
     border-radius: 30px;
+}
+
+.dropdown li a:hover{
+    color: white;
 }
 
 .submenu:hover .dropdown {
@@ -126,9 +130,11 @@ a{
     display: flex;
     width: 90%;
     height: 350px;
-    background: linear-gradient(to right,rgb(4, 20, 0),70%, rgb(9, 255, 0));
+    background: linear-gradient(to right,rgb(0, 0, 0),70%, rgb(169, 213, 42));
     border-radius: 50px;
+
 }
+
 
 .s-c-1-1{
     width: 500px;
@@ -142,4 +148,18 @@ a{
 
 .s-c-1-1 h1{
     font-size: 50px;
+}
+
+.camara{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.camara-1{
+    height: 380px;
+    margin-right: -55px !important;
+
 }
