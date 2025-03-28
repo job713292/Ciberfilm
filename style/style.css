@@ -134,7 +134,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .s-c-1{
@@ -145,7 +145,6 @@ body{
     border-radius: 50px;
 
 }
-
 
 .s-c-1-1{
     width: 510px;
@@ -171,7 +170,7 @@ body{
 
 .camara-1{
     height: 380px;
-    margin-right: -55px;
+    margin-right: -80px;
 }
 
 /*================*/
@@ -221,7 +220,16 @@ body{
     height: 75vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.s-c-2{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.s-c-2 h1{
+    font-size: 50px;
+    color:rgb(49, 58, 20);
 }
