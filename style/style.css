@@ -153,7 +153,7 @@ body{
     justify-content: center;
     padding-left: 50px;
     color: white;
-    text-shadow: 5px 5px 2px black;
+    text-shadow: 3px 3px 2px black;
 }
 
 .s-c-1-1 h1{
@@ -352,9 +352,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .p-s-1 h1{
     color: aliceblue;
     margin-top: 0;
+    text-shadow: 3px 3px 2px black;
 }
