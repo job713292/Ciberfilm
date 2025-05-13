@@ -196,11 +196,6 @@ body{
     flex-direction: column;
 }
 
-.s-c-2 h1{
-    font-size: 50px;
-    color:rgb(49, 58, 20);
-}
-
 .s-c-2-1{
     height: 100%;
     width: 100%;
@@ -221,6 +216,12 @@ body{
 .producto-1 :hover{
     transform: scale(1.05);
     transition: transform 0.2s;
+}
+
+.producto-1 button{
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .slider{
@@ -350,14 +351,50 @@ body{
 /*====PIE-DE-PAGINA====*/
 /*=====================*/
 
-.footer{
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(44, 44, 44);
-}
+footer {
+      background-color: #222;
+      color: #f1f1f1;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    footer .footer-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    footer .footer-logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    footer .footer-links a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer .footer-links a:hover {
+      color: #fff;
+    }
+
+    footer .social-icons a {
+      margin: 0 8px;
+      color: #ccc;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    footer .social-icons a:hover {
+      color: #00acee; /* Ejemplo para Twitter */
+    }
+
+    footer .copyright {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
 
 /*======================*/
 /*====SEGUNDA-PAGINA====*/
