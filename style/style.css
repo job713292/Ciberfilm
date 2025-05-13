@@ -173,61 +173,27 @@ body{
     margin-right: -50px;
 }
 
-/*================*/
-/*====BUSQUEDA====*/
-/*================*/
-
-.container-2{
-    height: 70px;
-    width: 100%;
-    background-color: rgb(255, 255,255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid olive; 
-    border-radius: 20px;
-    padding: 8px 15px;
-    width: 500px; 
-    height: 15px;
-  }
-  
-  .search-input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    color: #666;
-  }
-  
-  .search-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-  }
 
 /*=================*/
 /*====PRODUCTOS====*/
 /*=================*/
 
+.descubrelo{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
 .container-3{
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     background-color: rgba(255, 255, 255, 0.8); 
     flex-direction: column;
-}
-
-.s-c-2{
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 50px;
 }
 
 .s-c-2 h1{
@@ -264,6 +230,9 @@ body{
   scroll-behavior: smooth;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  overflow: auto;              /* o scroll */
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none; 
 }
 
 /*=================*/
@@ -375,6 +344,19 @@ body{
     color: aliceblue;
     margin-top: 0;
     text-shadow: 3px 3px 2px black;
+}
+
+/*=====================*/
+/*====PIE-DE-PAGINA====*/
+/*=====================*/
+
+.footer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
 }
 
 /*======================*/
