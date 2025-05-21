@@ -97,11 +97,15 @@ body{
     padding: 5px;
 }
 
-.dropdown li a {
+.dropdown a li  {
     text-decoration: none;
     display: block;
     display: flex;
     justify-content: center;
+}
+
+.lihover:hover{
+    color: #ffffff;
 }
 
 .dropdown li:hover {
@@ -109,7 +113,7 @@ body{
     border-radius: 30px;
 }
 
-.dropdown li a:hover{
+.dropdown a li :hover{
     color: white;
 }
 
@@ -161,8 +165,8 @@ body{
 }
 
 .camara{
-    width: 600px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
   
@@ -189,11 +193,16 @@ body{
 }
 
 .container-3{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     background-color: rgba(255, 255, 255, 0.8); 
     flex-direction: column;
+}
+
+.s-c-2 h1{
+    font-size: 50px;
+    color: rgb(169, 213, 42);
 }
 
 .s-c-2 h1{
