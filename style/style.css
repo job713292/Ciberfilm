@@ -31,6 +31,8 @@ a{
 
 body{
     background-image:url(/assets/fondo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .menu{
@@ -138,7 +140,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .s-c-1{
