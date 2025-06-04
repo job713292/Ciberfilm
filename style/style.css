@@ -13,7 +13,7 @@
 
 :root {
   --verde-oscuro: rgb(49, 58, 20);
-  --verde-claro: rgb(169, 213, 42);
+  --verde-claro: rgb(142, 177, 37);
   --texto: rgb(66, 72, 26);
   --blanco-transp: rgba(255, 255, 255, 0.8);
 }
@@ -37,6 +37,33 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  transform: scale(1.1);
+}
+
+.btn-whatsapp img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
 
 .menu {
   height: 70px;
@@ -136,7 +163,7 @@ body {
 }
 
 .s-c-1-1 {
-  width: 510px;
+  width: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -404,7 +431,7 @@ footer .copyright {
 }
 
 .containerDeFiltros button:hover {
-  background-color: var(--verde-oscuro);
+  background: linear-gradient(to right, var(--verde-oscuro), 65%, var(--verde-claro));
   color: white;
 }
 
@@ -419,7 +446,7 @@ footer .copyright {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   overflow: auto;
   gap: 20px;
 }
