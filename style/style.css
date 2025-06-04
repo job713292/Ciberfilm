@@ -379,7 +379,7 @@ footer .copyright {
 
 .containerDeFiltros {
   height: 200vh;
-  width: 35%;
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -407,3 +407,20 @@ footer .copyright {
   background-color: var(--verde-oscuro);
   color: white;
 }
+
+/*=====================*/
+/*======PRODUCTOS======*/ 
+/*=====================*/
+
+.productos{
+  padding-top: 70px;
+  width: 80%;
+  height: 180vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  gap: 20px;
+}
+
