@@ -34,3 +34,11 @@ function eliminarProducto(index) {
     localStorage.setItem("productos", JSON.stringify(productos));
     location.reload(); // Recarga para reflejar los cambios
 }
+
+
+const toggle = document.getElementById('menu-toggle');
+const lista = document.querySelector('.lista');
+
+toggle.addEventListener('click', () => {
+  lista.classList.toggle('active');
+});
