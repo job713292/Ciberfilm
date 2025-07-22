@@ -2,10 +2,12 @@
   font-family: 'Bold';
   src: url('../fonts/Bold.woff');
 }
+
 @font-face {
   font-family: 'BoldObl';
   src: url('../fonts/BoldObl.woff');
 }
+
 @font-face {
   font-family: 'FUTURA-MD';
   src: url('../fonts/FUTURA-MD-BT-MEDIUM.woff');
@@ -69,7 +71,7 @@ body {
 .menu {
   height: 70px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,6 +163,7 @@ body {
   height: 350px;
   background: linear-gradient(to right, var(--verde-oscuro), 65%, var(--verde-claro));
   border-radius: 50px;
+  justify-content: space-between;
 }
 
 .s-c-1-1 {
@@ -178,14 +181,14 @@ body {
 }
 
 .camara {
-  width: 50%;
+  width: 450px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
 .camara-1 {
-  height: 380px;
+  height: 400px;
   margin-right: -50px;
 }
 
@@ -229,23 +232,23 @@ body {
   gap: 15px;
 }
 
-.producto-1{
-    height: 255px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.producto-1 {
+  height: 255px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.producto-1 :hover{
-    transform: scale(1.05);
-    transition: transform 0.2s;
+.producto-1 :hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }
 
-.producto-1 button{
-    background-color: transparent;
-    border: none;
-    color: rgba(255, 255, 255, 0.8);
+.producto-1 button {
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .slider {
@@ -260,33 +263,33 @@ body {
 }
 
 .boton-izquierda {
-    width: 30px;
-    height: 50px;
-    margin-left: 30px;
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: transform 0.2s;
-    outline: none; 
-    background-color: transparent;
+  width: 30px;
+  height: 50px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  outline: none;
+  background-color: transparent;
 }
 
 .boton-derecha {
-    width: 30px;
-    height: 50px;
-    margin-right: 30px;
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: transform 0.2s;
-    outline: none; 
-    background-color: transparent;
+  width: 30px;
+  height: 50px;
+  margin-right: 30px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  outline: none;
+  background-color: transparent;
 }
 
 .boton-control:hover {
@@ -395,6 +398,7 @@ footer .copyright {
   font-size: 14px;
   color: #777;
 }
+
 /*==========================*/
 /*======SEGUNDA PÁGINA======*/
 /*==========================*/
@@ -426,6 +430,7 @@ footer .copyright {
   border-radius: 15px;
   width: 370px;
   height: 35px;
+  cursor: pointer;
 }
 
 .etiquetas {
@@ -444,10 +449,10 @@ footer .copyright {
 }
 
 /*=====================*/
-/*======PRODUCTOS======*/ 
+/*======PRODUCTOS======*/
 /*=====================*/
 
-.productos{
+.productos {
   padding-top: 70px;
   width: 80%;
   height: 180vh;
@@ -460,20 +465,22 @@ footer .copyright {
 }
 
 /*======================*/
-/*======RESPONSIVE======*/ 
+/*======RESPONSIVE======*/
 /*======================*/
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
+
   .menu-nav {
     display: flex;
     justify-content: space-between;
+
   }
 
-  .logo{
-    padding-left: 10px ;
+  .logo {
+    padding-left: 10px;
   }
 
-  .lista{
+  .lista {
     display: none;
     background-color: var(--blanco-transp);
     position: absolute;
@@ -482,10 +489,10 @@ footer .copyright {
     width: 100%;
     height: 70px;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     gap: 50px;
   }
-  .lista.active{
+
+  .lista.active {
     display: flex;
   }
 
@@ -496,12 +503,12 @@ footer .copyright {
     right: 20px;
     z-index: 1001;
   }
-  
+
   .car {
     display: none;
   }
-  
-  .s-c-1{
+
+  .s-c-1 {
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -511,23 +518,24 @@ footer .copyright {
     border-radius: 0px;
   }
 
-  .camara img{
-    width: 500px;
+  .camara-1 {
     height: 250px;
-    margin: 0%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 0px;
   }
 
-  .camara{
+  .camara {
     display: flex;
     justify-content: center;
+    width: 100%;
 
   }
 
-  .s-c-1-1{
+  .s-c-2 h1 {
+    font-size: 40px;
+    color: var(--texto);
+  }
+
+  .s-c-1-1 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -536,15 +544,13 @@ footer .copyright {
     padding: 0%;
   }
 
-  .s-c-1-1 h1{
+  .s-c-1-1 h1 {
     font-size: 35px;
     text-align: center;
   }
 
-  .s-c-1-1 p{
+  .s-c-1-1 p {
     font-size: 20px;
     text-align: center;
   }
-  
 }
-
