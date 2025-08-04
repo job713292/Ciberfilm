@@ -36,7 +36,7 @@ a {
 }
 
 body {
-  background-image: url(/assets/fondo1.jpg);
+  background-image: url(/public/assets/fondo1.jpg);
   background-size: cover;
   background-position: center;
 }
