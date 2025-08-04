@@ -188,7 +188,7 @@ body {
 }
 
 .camara-1 {
-  height: 60vh;
+  height: 100%;
   margin-right: -50px;
 }
 
@@ -468,7 +468,7 @@ footer .copyright {
 /*======RESPONSIVE======*/
 /*======================*/
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) and (min-width: 377px) {
 
   .menu-nav {
     display: flex;
@@ -482,15 +482,21 @@ footer .copyright {
 
   .lista {
     display: none;
-    background-color: var(--blanco-transp);
     position: absolute;
-    top: 70px;
-    right: 0px;
+    top: 90px;
+    right: 10px;
     width: 50%;
     height: 100vh;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     justify-content: start;
+    gap: 20px;
+  }
+
+  .lista li {
+    background-color: var(--blanco-transp);
+    padding: 10px;
+    border-radius: 50px;
   }
 
   .lista.active {
@@ -529,7 +535,6 @@ footer .copyright {
     display: flex;
     justify-content: center;
     width: 90%;
-
   }
 
   .s-c-2 h1 {
@@ -556,3 +561,4 @@ footer .copyright {
     text-align: center;
   }
 }
+
