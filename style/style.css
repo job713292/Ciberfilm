@@ -17,7 +17,7 @@
   --verde-oscuro: rgb(49, 58, 20);
   --verde-claro: rgb(142, 177, 37);
   --texto: rgb(66, 72, 26);
-  --blanco-transp: rgba(255, 255, 255, 0.8);
+  --blanco-transp: rgba(255, 255, 255, 0.9);
   --degraadado: linear-gradient(to right, var(--verde-oscuro), 65%, var(--verde-claro));
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 body {
-  background-image: url(/public/assets/fondo1.jpg);
+  background-image: url(/assets/fondo1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -71,7 +71,7 @@ body {
 .menu {
   height: 70px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--blanco-transp);
   display: flex;
   justify-content: center;
   align-items: center;
