@@ -36,9 +36,13 @@ function eliminarProducto(index) {
 }
 
 
+// Menu responsive
 const toggle = document.getElementById('menu-toggle');
 const lista = document.querySelector('.lista');
+const icon = document.querySelector('.menu-toggle i');
 
 toggle.addEventListener('click', () => {
   lista.classList.toggle('active');
+  icon.classList.toggle('fa-bars');
+  icon.classList.toggle('fa-times');
 });

@@ -36,7 +36,7 @@ a {
 }
 
 body {
-  background-image: url(/public/assets/fondo1.jpg);
+  background-image: url(/assets/fondo1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -528,7 +528,7 @@ footer .copyright {
   .camara {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
 
   }
 
