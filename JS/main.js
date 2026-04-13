@@ -13,28 +13,6 @@ boton_derecha.addEventListener("click", function () {
   slider.scrollLeft += 500;
 });
 
-let carrito = [];
-
-function agregarAlCarrito(nombre, precio) {
-  carrito.push({ nombre, precio });
-  alert(`${nombre} agregado al carrito.`);
-}
-
-function mostrarCarrito() {
-  let lista = document.getElementById('listaCarrito');
-  let total = document.getElementById('total');
-  let contenedor = document.getElementById('carrito');
-  lista.innerHTML = '';
-  let suma = 0;
-  carrito.forEach(producto => {
-    const item = document.createElement('li');
-    item.textContent = `${producto.nombre} - $${producto.precio}`;
-    lista.appendChild(item);
-    suma += producto.precio;
-  });
-  total.textContent = `Total: $${suma}`;
-  contenedor.style.display = 'block';
-}
 
 //mostrar productos slider 
 
@@ -57,16 +35,12 @@ if (productos.length === 0) {
   <h1>${producto.nombre}</h1>
   <p>$${producto.precio}</p>
   <div class="p-s-1">
-    ${mostrarAgregar ? `<button onclick="agregarAlCarrito('${producto.nombre}', ${producto.precio})">AGREGAR</button>` : ""}
+    ${mostrarAgregar ? `<button onclick="agregarAlCarrito(${producto.id})">AGREGAR</button>` : ""}
     ${mostrarEliminar ? `<button onclick="eliminarProducto(${index})">ELIMINAR</button>` : ""}
   </div>
 `;
     contenedor.appendChild(tarjeta);
   });
-}
-
-function agregarAlCarrito(nombre, precio) {
-  alert(`Producto agregado: ${nombre} ($${precio})`);
 }
 
 function eliminarProducto(index) {
@@ -86,4 +60,3 @@ toggle.addEventListener('click', () => {
   icon.classList.toggle('fa-bars');
   icon.classList.toggle('fa-times');
 });
-

@@ -12,6 +12,7 @@ formulario.addEventListener("submit", function (event) {
 
     // Crear nuevo producto
     const nuevoProducto = {
+        id: Date.now(),
         nombre: nombre.value,
         precio: precio.value,
         imagen: imagen.value
